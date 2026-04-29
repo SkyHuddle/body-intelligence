@@ -111,13 +111,11 @@
 
 @layer base {
   * { border-color: var(--color-border); }
-  html, body { background: #07080A; }
+  html, body { background: #050608; }
   body {
     color: var(--color-foreground);
     font-family: var(--font-sans);
     -webkit-font-smoothing: antialiased;
-    background: var(--gradient-bg);
-    background-attachment: fixed;
     min-height: 100vh;
     letter-spacing: -0.011em;
   }
