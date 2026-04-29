@@ -14,7 +14,7 @@ const tabs = [
 export function FloatingTabBar() {
   const { pathname } = useLocation();
   return (
-    <nav className="pointer-events-none fixed inset-x-0 bottom-0 z-50 flex justify-center pb-5 px-4">
+    <nav className="pointer-events-none absolute inset-x-0 bottom-0 z-50 flex justify-center pb-5 px-4">
       <div
         className="pointer-events-auto glass-strong rounded-full px-2 py-2 flex items-center gap-1"
         style={{ boxShadow: "0 30px 60px -20px rgba(0,0,0,0.7), 0 1px 0 rgba(255,255,255,0.06) inset" }}
