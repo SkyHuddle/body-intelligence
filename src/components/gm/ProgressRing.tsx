@@ -52,7 +52,6 @@ export function ProgressRing({
           strokeLinecap="round"
           strokeDasharray={`${dash} ${c}`}
           fill="none"
-          style={{ filter: "drop-shadow(0 0 12px oklch(0.82 0.16 215 / 0.55))" }}
         />
       </svg>
       <div className="absolute inset-0 flex items-center justify-center text-center">{children}</div>
