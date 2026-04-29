@@ -6,7 +6,7 @@ export function AppShell({ children, className }: { children: React.ReactNode; c
   return (
     <div className="min-h-screen w-full flex items-center justify-center py-6 px-4 bg-stage">
       <PhoneFrame>
-        <div className="absolute inset-0 overflow-y-auto bg-app">
+        <div className="absolute inset-0 overflow-y-auto no-scrollbar bg-app">
           <StatusBar />
           <main className={cn("px-5 pt-2 pb-32", className)}>{children}</main>
         </div>
