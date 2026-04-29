@@ -9,8 +9,8 @@ export function AppShell({ children, className }: { children: React.ReactNode; c
         <div className="absolute inset-0 overflow-y-auto bg-app">
           <StatusBar />
           <main className={cn("px-5 pt-2 pb-32", className)}>{children}</main>
-          <FloatingTabBar />
         </div>
+        <FloatingTabBar />
       </PhoneFrame>
     </div>
   );
